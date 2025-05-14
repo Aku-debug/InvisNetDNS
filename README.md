@@ -17,27 +17,29 @@ Bu proje, Windows platformu üzerinde çalışan gelişmiş bir ağ bypass ve pa
 
 HER BILGISAYAR DA CALISMAYABILIR!!!!
 
+![Çalışma Prensibi](Akusan.png)
+
 1. ⛔ Analiz araçları taranır. Tespit edilirse uygulama çalışmaz.
 2. 🔄 DNS önbelleği temizlenir ve TCP/IP stack resetlenir.
 3. 🌐 Ağ arayüzleri alınır ve kullanılacak IP seçilir.
 4. 🧰 Raw socket ile gelen paketler dinlenir (`SOCK_RAW` + `RCVALL`).
 5. ✂️ Yakalanan paketler türüne göre:
-   - TCP başlığı değiştirilir (sequence, ack, timestamp),
-   - HTTP başlıkları yeniden yazılır,
-   - DNS içerikleri manipüle edilir.
+    - TCP başlığı değiştirilir (sequence, ack, timestamp),
+    - HTTP başlıkları yeniden yazılır,
+    - DNS içerikleri manipüle edilir.
 6. 📤 Manipüle edilmiş paket tekrar ağ üzerinden gönderilir.
 7. 🧹 Uygulama sonlandırıldığında kaynaklar düzgünce temizlenir.
 
 ## ⚙️ Gereksinimler
 
-- 🪟 Windows işletim sistemi  
-- 🛡️ Yönetici (admin) yetkileri  
+- 🪟 Windows işletim sistemi
+- 🛡️ Yönetici (admin) yetkileri
 - 🧵 Raw socket desteği (genellikle sadece admin modda aktif olur)
 
 ## ⚠️ Uyarı
 
-🔐 Bu yazılım, sadece **eğitim** ve **güvenlik testi** amaçlıdır.  
-İzinsiz ağ manipülasyonu etik dışıdır ve **yasal sonuçlar doğurabilir**.  
+🔐 Bu yazılım, sadece **eğitim** ve **güvenlik testi** amaçlıdır.
+İzinsiz ağ manipülasyonu etik dışıdır ve **yasal sonuçlar doğurabilir**.
 Lütfen yalnızca **kendi sistemlerinizde** kullanınız.
 
 ## 👨‍💻 Katkıda Bulun
