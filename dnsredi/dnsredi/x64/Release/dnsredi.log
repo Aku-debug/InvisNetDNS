@@ -1,0 +1,12 @@
+﻿  dnsredi.cpp
+C:\Users\Tokky\OneDrive\Desktop\akunun entel uygulamalari\dnsredi\dnsredi\dnsredi.cpp(25,9): warning C4005: 'SIO_RCVALL': makro yeniden tanımlama
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\mstcpip.h(183,9):
+      önceki 'SIO_RCVALL' tanımına bakın
+  
+C:\Users\Tokky\OneDrive\Desktop\akunun entel uygulamalari\dnsredi\dnsredi\dnsredi.cpp(204,40): warning C4018: '<=': işaretli/işaretsiz uyuşmazlığı
+C:\Users\Tokky\OneDrive\Desktop\akunun entel uygulamalari\dnsredi\dnsredi\dnsredi.cpp(221,37): warning C4267: '+=': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+  Kod üretiliyor
+  Previous IPDB not found, fall back to full compilation.
+  All 378 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Kodun üretilmesi tamamlandı
+  dnsredi.vcxproj -> C:\Users\Tokky\OneDrive\Desktop\akunun entel uygulamalari\dnsredi\x64\Release\dnsredi.exe
